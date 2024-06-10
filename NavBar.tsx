@@ -1,7 +1,5 @@
 'use client';
-import Logo from "../ui/Logo";
-import Search from "./Search";
-import NavMenu from "./NavMenu";
+
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { decodeJwt } from '@/utils/decodeJwt';
@@ -9,6 +7,9 @@ import Image from "next/image";
 import { JwtPayload } from "@/types";
 import { RiLoginCircleLine } from "react-icons/ri";
 import { BiSolidDonateHeart } from "react-icons/bi";
+import Logo from "@/components/ui/Logo";
+import NavMenu from "@/components/NavBar/NavMenu";
+import Search from "@/components/NavBar/Search";
 
 const Navbar: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
