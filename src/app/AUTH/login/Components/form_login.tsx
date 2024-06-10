@@ -65,7 +65,7 @@ const Form_Login: React.FC = () => {
     }
 
     try {
-      const response = await fetch("https://backpf-prueba.onrender.com/auth/login", {
+      const response = await fetch("https://huellasdesperanza.onrender.com/auth/login/shelter", {
         method: "POST",
        
         headers: {
@@ -167,7 +167,7 @@ const Form_Login: React.FC = () => {
           <p className='text-gray-500'>¿No tienes una cuenta?</p>
           <button
             type='button'
-            onClick={() => router.push('/option_register')}
+            onClick={() => router.push('/Home')}
             className='font-semibold hover:text-primary transition-colors duration-300'
           >
             Regístrate
