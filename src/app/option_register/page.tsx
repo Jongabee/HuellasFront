@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaUser, FaHome } from 'react-icons/fa';
 
 
-export const RegistroPage: React.FC = () => {
+const RegistroPage: React.FC = () => {
   return (
     <div className="mx-auto p-4 bg-gray-50 ">
       <div className="flex items-center mb-3 w-full h-20 bg-pink-600 rounded-lg p-4">
