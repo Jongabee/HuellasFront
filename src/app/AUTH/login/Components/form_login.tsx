@@ -167,7 +167,7 @@ const Form_Login: React.FC = () => {
           <p className='text-gray-500'>¿No tienes una cuenta?</p>
           <button
             type='button'
-            onClick={() => router.push('/Home')}
+            onClick={() => router.push('/option_register')}
             className='font-semibold hover:text-primary transition-colors duration-300'
           >
             Regístrate
