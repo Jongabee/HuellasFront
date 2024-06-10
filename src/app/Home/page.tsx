@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       {/* Banner */}
       <div className="relative w-full h-96">
         <Image
-          src="/imgs/bannerNav.png"
+          src="/bannerNav.png"
           alt="Wave Background"
           layout="fill"
           objectFit="cover"
