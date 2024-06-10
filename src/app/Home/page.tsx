@@ -3,7 +3,7 @@ import Image from "next/image";
 import RandomRefugiosCards from "@/components/Refugios/RandomRefugiosCards";
 import RandomAnimalCards from "@/components/Card-Animals/RandomAnimalsCards";
 
-export const Home: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className="relative w-full min-h-screen overflow-hidden">
       {/* Banner */}
