@@ -18,7 +18,7 @@ interface IDonation {
 
 const DEFAULT_IMAGE_URL = 'https://via.placeholder.com/150';
 
-export const DonationsUI: React.FC = () => {
+const DonationsUI: React.FC = () => {
   const { redirecting } = useRedirect();
   const [token, setToken] = useState<string | null>(null); 
   const [donations, setDonations] = useState<IDonation[]>([]);

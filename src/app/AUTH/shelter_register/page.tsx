@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Register Refugio | Auth',
 };
 
-export const RegisterRefugio = () => {
+const RegisterRefugio = () => {
   return (
     <section className='h-full flex flex-col items-center justify-center'>
       <Logo />

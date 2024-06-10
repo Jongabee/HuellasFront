@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Login | Auth',
 };
 
-export const Login = () =>{
+const Login = () =>{
   return (
     <section className='h-full flex flex-col items-center justify-center'>
       <Logo />
